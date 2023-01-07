@@ -1,248 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&family=Playfair+Display:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&family=Playfair+Display:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* banner */
-header{
-    background-image: url(./images/banner/banner3.png);
-    background-position: center;
-    background-size: contain;
-    height: 100vh;
-    text-align: end;
+header {
+  background-image: url(./images/banner/banner3.png);
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  text-align: end;
 }
 
-header .banner h1{
-    color: #fff;
-    font-weight: 800;
-    font-size: 50px;
-    width: 350px;
-    padding: 200px 0 0 1000px;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 20px;
+header .banner h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+  width: 350px;
+  padding: 200px 0 0 1000px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
 }
 
-header .banner p{
-    padding: 0 150px 0 1000px;
-   color: rgb(241, 247, 247);
-   /* font-family: 'Montserrat', sans-serif; */
-   font-family: 'Lato', sans-serif;
-   margin-bottom: 20px;
-   /* font-weight: 500; */
+header .banner p {
+  padding: 0 150px 0 1000px;
+  color: rgb(241, 247, 247);
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
 }
-header .banner .btn{
-    margin: 20px 0 0 1240px ;
-    background-color: #fff;
-    color: rgb(65, 65, 228);
-    padding: 15px 20px;
-    border: 0 solid #fff;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 15px;
-    margin-right: 150px;
+header .banner .btn {
+  margin: 20px 0 0 1240px;
+  background-color: #fff;
+  color: rgb(65, 65, 228);
+  padding: 15px 20px;
+  border: 0 solid #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-right: 150px;
 }
 
-   /* main */
+/* main */
 
 /* main-contact */
-.main-content{
-    padding-bottom: 100px;
-    background-color: #fafaf7;
+.main-content {
+  padding-bottom: 100px;
+  background-color: #fafaf7;
 }
 
-.main-content .content{
-    display: flex;
-    justify-content: space-between;
+.main-content .content {
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-content .content  .img{
-    padding: 100px 0 0 350px;
+.main-content .content .img {
+  padding: 100px 0 0 350px;
 }
 
-.main-content .content .box-container{
-    padding: 300px 250px 0 150px;
+.main-content .content .box-container {
+  padding: 300px 250px 0 150px;
 }
 
-.main-content .content .box-container h2{
-    font-weight: 1000;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    padding-bottom: 7px;
-    margin-bottom: 10px;
+.main-content .content .box-container h2 {
+  font-weight: 1000;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
 }
 
-.main-content .content .box-container p{
-    color:rgb(145, 156, 165) ;
-    padding: 5px;
+.main-content .content .box-container p {
+  color: rgb(145, 156, 165);
+  padding: 5px;
 }
 
-.main-content .content .box-container .pera{
-    margin-bottom: 15px;
+.main-content .content .box-container .pera {
+  margin-bottom: 15px;
 }
 
-.main-content .content .box-container .mini-box{
-    display: flex;
+.main-content .content .box-container .mini-box {
+  display: flex;
 }
-
 
 /* memories */
-.memories{
-    margin: 150px 100px 0 100px;
-    background-color: rgb(225, 216, 204);
-   
+.memories {
+  margin: 150px 100px 0 100px;
+  background-color: rgb(237, 233, 226);
+  padding: 50px 0 50px 0;
 }
-.main-content .memories .images{
-    display: flex;
-   gap: 60px;
-   margin-left: 350px;
-}
-
-.main-content .memories .images .boxes{
-    text-align: center;
-    font-size: 20px;
+.main-content .memories .images {
+  display: flex;
+  gap: 60px;
+  margin-left: 350px;
 }
 
-.memories .paragraph h2{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
+.main-content .memories .images .boxes {
+  text-align: center;
+  font-size: 20px;
 }
 
-.memories .paragraph p{
-    margin: 25px 350px 50px 350px;
-    color: rgb(145, 156, 165);
-    font-family: 'Playfair Display', serif;
+.memories .paragraph h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.memories .paragraph p {
+  margin: 25px 350px 50px 350px;
+  color: rgb(145, 156, 165);
+  font-family: "Playfair Display", serif;
 }
 
 /* main-plans */
-.plans{
-    margin-top: 130px;
+.plans {
+  margin-top: 130px;
 }
 
-.plans h3{
-    text-align: center;
-    font-weight: 800;
-    font-size: 35px;
-    font-family: 'Playfair Display', serif;
+.plans h3 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
 }
 
-.plans .box-container{
-    display: flex;
-    gap: 70px;
-    padding: 60px 0 150px 300px;  
+.plans .box-container {
+  display: flex;
+  gap: 70px;
+  padding: 60px 0 150px 300px;
 }
 
-.plans .box-container .box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.plans .box-container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.plans .box-container .box h3{
-   font-size: 30px;
-   font-weight: 700;
-   font-family: 'Playfair Display', serif;
+.plans .box-container .box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
 }
 
-.plans .box-container .box p{
-    color: rgb(143, 165, 184);
-    font-size: 20px;
+.plans .box-container .box p {
+  color: rgb(143, 165, 184);
+  font-size: 20px;
 }
 
-.plans .image{
-    margin-left: 200px;
+.plans .image {
+  margin-left: 200px;
 }
 
-.plans .second-box-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #4c24dc), url(./images/watch.png) ;
-   width: 950px;
-   height: 250px;
-   background-repeat: no-repeat;
-   align-items: center;
-   margin: auto;
-   border-radius: 10px;
-  
+.plans .second-box-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #4c24dc),
+    url(./images/watch.png);
+  width: 950px;
+  height: 250px;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.plans .second-box-container p{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-    margin-left: 50px;
-    padding-top: 50px;
+.plans .second-box-container p {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  margin-left: 50px;
+  padding-top: 50px;
 }
 
-.plans .second-box-container .btn{
-    background-color: #fff;
-    color: rgb(65, 65, 228);
-    padding: 15px 20px;
-    border: 0 solid #fff;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 15px;
-    margin: 50px 50px;
+.plans .second-box-container .btn {
+  background-color: #fff;
+  color: rgb(65, 65, 228);
+  padding: 15px 20px;
+  border: 0 solid #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 50px 50px;
 }
-
 
 /* footer */
-footer{
-    background-color: black;
-    color: #fff;
-    padding: 100px;
-    display: flex;
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 100px;
+  display: flex;
 }
-footer .box-container{
-    display: flex;
-}
-
-footer .box-container .first-container{
-    padding: 0 400px 0 100px;
+footer .box-container {
+  display: flex;
 }
 
-footer .box-container .first-container h3{
-    font-size: 40px;
-    padding-bottom: 20px;
+footer .box-container .first-container {
+  padding: 0 400px 0 100px;
 }
 
-footer .box-container .first-container p{
-    padding-bottom: 10px;
-    color: rgb(241, 247, 247);
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Lato', sans-serif;
+footer .box-container .first-container h3 {
+  font-size: 40px;
+  padding-bottom: 20px;
 }
 
-footer .box-container .first-container .icon{
-    padding-top: 20px;
+footer .box-container .first-container p {
+  padding-bottom: 10px;
+  color: rgb(241, 247, 247);
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Lato", sans-serif;
 }
 
-footer .box-container .second-container{
-    padding-right: 150px;
+footer .box-container .first-container .icon {
+  padding-top: 20px;
 }
 
-footer .box-container .second-container h3{
-    font-size: 25px;
+footer .box-container .second-container {
+  padding-right: 150px;
 }
 
-footer .box-container .second-container input{
-    width: 220px;
-    height: 50px;
-    border-radius: 5px;
-   margin:  30px 0 30px 0;
-   text-align: center;
-   background-color: black;
-   border: 2px solid #fff;
-   color: #fff;
+footer .box-container .second-container h3 {
+  font-size: 25px;
 }
 
-footer .box-container .second-container .btn{
-    background-color: #fff;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 15px;
-    background-color: rgb(65, 65, 228);
+footer .box-container .second-container input {
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 30px 0 30px 0;
+  text-align: center;
+  background-color: black;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+footer .box-container .second-container .btn {
+  background-color: #fff;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(65, 65, 228);
 }
