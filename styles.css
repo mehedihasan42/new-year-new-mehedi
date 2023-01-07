@@ -6,14 +6,14 @@
 }
 
 /* banner */
-.banner{
+header{
     background-image: url(./images/banner/banner3.png);
     background-position: center;
     background-size: contain;
     height: 100vh;
 }
 
-.banner .first-container h1{
+header .banner h1{
     color: #fff;
     font-weight: 800;
     font-size: 50px;
@@ -22,13 +22,12 @@
     font-family: 'Playfair Display', serif;
 }
 
-.banner .first-container p{
+header .banner p{
     padding: 0 150px 0 1000px;
    color: rgb(241, 247, 247);
    font-family: 'Montserrat', sans-serif;
 }
-
-.banner .first-container .btn{
+header .banner .btn{
     margin: 20px 0 0 1240px ;
     background-color: #fff;
     color: rgb(65, 65, 228);
@@ -37,6 +36,14 @@
     border-radius: 5px;
     font-weight: 700;
     font-size: 15px;
+}
+
+   /* main */
+
+/* main-contact */
+.main-content{
+    padding-bottom: 100px;
+    background-color: #fdfdff;
 }
 
 .main-content .content{
@@ -68,6 +75,7 @@
     display: flex;
 }
 
+/* main-plans */
 .plans{
     margin-top: 130px;
 }
@@ -82,24 +90,116 @@
 .plans .box-container{
     display: flex;
     gap: 70px;
-    padding: 60px 0 150px 300px;
+    padding: 60px 0 150px 300px;  
 }
 
-
+.plans .box-container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .plans .box-container .box h3{
    font-size: 30px;
    font-weight: 700;
-   text-align: center;
+   /* text-align: center; */
    font-family: 'Playfair Display', serif;
 }
 
 .plans .box-container .box p{
     color: rgb(143, 165, 184);
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .plans .image{
     margin-left: 200px;
+}
+
+.plans .second-box-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #4c24dc), url(./images/watch.png) ;
+   width: 950px;
+   height: 250px;
+   background-repeat: no-repeat;
+   align-items: center;
+   margin: auto;
+   border-radius: 10px;
+   /* background-color: linear-gradient(to bottom, #0033cc 100% , #33ccff 0%); */
+}
+
+.plans .second-box-container p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.plans .second-box-container .btn{
+    background-color: #fff;
+    color: rgb(65, 65, 228);
+    padding: 15px 20px;
+    border: 0 solid #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 50px 50px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+}
+footer .box-container{
+    display: flex;
+}
+
+footer .box-container .first-container{
+    padding: 0 400px 0 100px;
+}
+
+footer .box-container .first-container h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+footer .box-container .first-container p{
+    padding-bottom: 10px;
+    color: rgb(241, 247, 247);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer .box-container .first-container .icon{
+    padding-top: 20px;
+}
+
+footer .box-container .second-container{
+    padding-right: 150px;
+}
+
+footer .box-container .second-container h3{
+    font-size: 25px;
+}
+
+footer .box-container .second-container input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+   margin:  30px 0 30px 0;
+   text-align: center;
+}
+
+footer .box-container .second-container .btn{
+    background-color: #fff;
+    color: rgb(65, 65, 228);
+    padding: 15px 20px;
+    border: 0 solid #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
 }
