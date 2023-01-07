@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&family=Playfair+Display:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner */
+.banner{
+    background-image: url(./images/banner/banner3.png);
+    height: 100vh;
+}
+
+.banner .first-container{
+    padding-top: 200px;
+}
+
+.banner .first-container .first-pera{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    width: 350px;
+    padding-left: 1000px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner .first-container .second-pera{
+    padding: 0 150px 0 1000px;
+   color: rgb(241, 247, 247);
+   font-family: 'Montserrat', sans-serif;
+}
+
+.banner .first-container .btn{
+    margin: 20px 0 0 1240px ;
+    background-color: #fff;
+    color: rgb(65, 65, 228);
+    padding: 15px 20px;
+    border: 0 solid #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
